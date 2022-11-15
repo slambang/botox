@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/steve/Desktop/lightricks/project/botox/botox.cpp" "/home/steve/Desktop/lightricks/project/cmake-build-debug/CMakeFiles/lightricks.dir/botox/botox.cpp.o"
-  "/home/steve/Desktop/lightricks/project/main.cpp" "/home/steve/Desktop/lightricks/project/cmake-build-debug/CMakeFiles/lightricks.dir/main.cpp.o"
+  "/home/steve/Desktop/botox/botox/botox.cpp" "/home/steve/Desktop/botox/cmake-build-debug/CMakeFiles/lightricks.dir/botox/botox.cpp.o"
+  "/home/steve/Desktop/botox/main.cpp" "/home/steve/Desktop/botox/cmake-build-debug/CMakeFiles/lightricks.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

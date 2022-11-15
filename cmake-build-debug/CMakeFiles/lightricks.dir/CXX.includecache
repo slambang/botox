@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/steve/Desktop/lightricks/project/args_parser.h
+/home/steve/Desktop/botox/args_parser.h
 iostream
 -
 experimental/filesystem
@@ -14,37 +14,47 @@ experimental/filesystem
 boost/program_options.hpp
 -
 botox/botox.h
-/home/steve/Desktop/lightricks/project/botox/botox.h
+/home/steve/Desktop/botox/botox/botox.h
 
-/home/steve/Desktop/lightricks/project/botox/botox.h
+/home/steve/Desktop/botox/botox/botox.cpp
+limits
+-
+cmath
+-
+iostream
+-
+botox.h
+/home/steve/Desktop/botox/botox/botox.h
+
+/home/steve/Desktop/botox/botox/botox.h
 vector
 -
 pixel.h
-/home/steve/Desktop/lightricks/project/botox/pixel.h
+/home/steve/Desktop/botox/botox/pixel.h
 weights/pixel_weight_calculator.h
-/home/steve/Desktop/lightricks/project/botox/weights/pixel_weight_calculator.h
+/home/steve/Desktop/botox/botox/weights/pixel_weight_calculator.h
 
-/home/steve/Desktop/lightricks/project/botox/pixel.h
+/home/steve/Desktop/botox/botox/pixel.h
 
-/home/steve/Desktop/lightricks/project/botox/weights/default_pixel_weight_calculator.h
+/home/steve/Desktop/botox/botox/weights/default_pixel_weight_calculator.h
 ../botox.h
-/home/steve/Desktop/lightricks/project/botox/botox.h
+/home/steve/Desktop/botox/botox/botox.h
 pixel_weight_calculator.h
-/home/steve/Desktop/lightricks/project/botox/weights/pixel_weight_calculator.h
+/home/steve/Desktop/botox/botox/weights/pixel_weight_calculator.h
 
-/home/steve/Desktop/lightricks/project/botox/weights/pixel_weight_calculator.h
+/home/steve/Desktop/botox/botox/weights/pixel_weight_calculator.h
 
-/home/steve/Desktop/lightricks/project/main.cpp
+/home/steve/Desktop/botox/main.cpp
 opencv2/opencv.hpp
 -
 opencv2/core/utils/logger.hpp
-/home/steve/Desktop/lightricks/project/opencv2/core/utils/logger.hpp
+/home/steve/Desktop/botox/opencv2/core/utils/logger.hpp
 args_parser.h
-/home/steve/Desktop/lightricks/project/args_parser.h
+/home/steve/Desktop/botox/args_parser.h
 botox/botox.h
-/home/steve/Desktop/lightricks/project/botox/botox.h
+/home/steve/Desktop/botox/botox/botox.h
 botox/weights/default_pixel_weight_calculator.h
-/home/steve/Desktop/lightricks/project/botox/weights/default_pixel_weight_calculator.h
+/home/steve/Desktop/botox/botox/weights/default_pixel_weight_calculator.h
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

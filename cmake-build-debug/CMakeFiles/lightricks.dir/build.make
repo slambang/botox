@@ -63,10 +63,10 @@ RM = /home/steve/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/steve/Desktop/lightricks/project
+CMAKE_SOURCE_DIR = /home/steve/Desktop/botox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/steve/Desktop/lightricks/project/cmake-build-debug
+CMAKE_BINARY_DIR = /home/steve/Desktop/botox/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lightricks.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/lightricks.dir/flags.make
 
 CMakeFiles/lightricks.dir/main.cpp.o: CMakeFiles/lightricks.dir/flags.make
 CMakeFiles/lightricks.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/Desktop/lightricks/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lightricks.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lightricks.dir/main.cpp.o -c /home/steve/Desktop/lightricks/project/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/Desktop/botox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lightricks.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lightricks.dir/main.cpp.o -c /home/steve/Desktop/botox/main.cpp
 
 CMakeFiles/lightricks.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lightricks.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/Desktop/lightricks/project/main.cpp > CMakeFiles/lightricks.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/Desktop/botox/main.cpp > CMakeFiles/lightricks.dir/main.cpp.i
 
 CMakeFiles/lightricks.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lightricks.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/Desktop/lightricks/project/main.cpp -o CMakeFiles/lightricks.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/Desktop/botox/main.cpp -o CMakeFiles/lightricks.dir/main.cpp.s
 
 CMakeFiles/lightricks.dir/botox/botox.cpp.o: CMakeFiles/lightricks.dir/flags.make
 CMakeFiles/lightricks.dir/botox/botox.cpp.o: ../botox/botox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/Desktop/lightricks/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lightricks.dir/botox/botox.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lightricks.dir/botox/botox.cpp.o -c /home/steve/Desktop/lightricks/project/botox/botox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steve/Desktop/botox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lightricks.dir/botox/botox.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lightricks.dir/botox/botox.cpp.o -c /home/steve/Desktop/botox/botox/botox.cpp
 
 CMakeFiles/lightricks.dir/botox/botox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lightricks.dir/botox/botox.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/Desktop/lightricks/project/botox/botox.cpp > CMakeFiles/lightricks.dir/botox/botox.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/steve/Desktop/botox/botox/botox.cpp > CMakeFiles/lightricks.dir/botox/botox.cpp.i
 
 CMakeFiles/lightricks.dir/botox/botox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lightricks.dir/botox/botox.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/Desktop/lightricks/project/botox/botox.cpp -o CMakeFiles/lightricks.dir/botox/botox.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/steve/Desktop/botox/botox/botox.cpp -o CMakeFiles/lightricks.dir/botox/botox.cpp.s
 
 # Object files for target lightricks
 lightricks_OBJECTS = \
@@ -168,7 +168,7 @@ lightricks: /usr/local/lib/libopencv_photo.so.4.5.5
 lightricks: /usr/local/lib/libopencv_imgproc.so.4.5.5
 lightricks: /usr/local/lib/libopencv_core.so.4.5.5
 lightricks: CMakeFiles/lightricks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/steve/Desktop/lightricks/project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lightricks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/steve/Desktop/botox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lightricks"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lightricks.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +181,6 @@ CMakeFiles/lightricks.dir/clean:
 .PHONY : CMakeFiles/lightricks.dir/clean
 
 CMakeFiles/lightricks.dir/depend:
-	cd /home/steve/Desktop/lightricks/project/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/steve/Desktop/lightricks/project /home/steve/Desktop/lightricks/project /home/steve/Desktop/lightricks/project/cmake-build-debug /home/steve/Desktop/lightricks/project/cmake-build-debug /home/steve/Desktop/lightricks/project/cmake-build-debug/CMakeFiles/lightricks.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/steve/Desktop/botox/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/steve/Desktop/botox /home/steve/Desktop/botox /home/steve/Desktop/botox/cmake-build-debug /home/steve/Desktop/botox/cmake-build-debug /home/steve/Desktop/botox/cmake-build-debug/CMakeFiles/lightricks.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lightricks.dir/depend
 
